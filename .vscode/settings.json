@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "C:\\Users\\user\\envs\\stat\\Scripts\\python.exe",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_flask_sqlalchemy",
+        "pylint_flask",                 # This package is optional
+    ]
+}
