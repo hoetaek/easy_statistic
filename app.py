@@ -76,7 +76,7 @@ def download_file_named_in_unicode():
                                           file_name=u"中文文件名")
 
 
-@app.route("/import", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def doimport():
     if request.method == 'POST':
 
